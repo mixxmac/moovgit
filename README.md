@@ -9,8 +9,12 @@ In the beginning of your Tritium files for the site you wish to backup (.ts) add
 
 To backup, use <code>moovgit</code> instead of <code>git</code> when calling <code>git commit \<args></code>
 
-Data for each .ts:
-=======
+Data Saved At:
+--------------
+<code>\<project>/html-log/scripts/</code>
+
+Data Saved for each .ts:
+-------------------
 pdf (current "mstage" to act as mockup)
 
 html (current "www" source to diff)
