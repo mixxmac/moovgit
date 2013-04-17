@@ -5,8 +5,9 @@ Open source Tritium website html/pdf backups! Currently using http://pdfmyurl.co
 
 To start using:
 
-* In the beginning of your Tritium files for the site you wish to backup (.ts) add a first line of 
-<code>#URL=\<site-url\></code>
+* In the beginning of your Tritium files for the site you wish to backup (.ts) add a first line of:
+
+> <code>#URL=\<site-url\></code>
 
 To call backup:
 
