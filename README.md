@@ -9,13 +9,16 @@ To start using:
 
 > <code>#URL=\<site-url\></code>
 
-To call backup:
+* To call backup:
 
-* Call <code>moovgit</code> instead of <code>git</code> when calling <code>git commit \<args></code>
+> <code>./moovgit</code> instead of <code>git</code> 
+
+i.e.: 
+> <code>./moovgit commit -am "These changes are awesome!"<args></code>
 
 Data Saved At:
 --------------
-<code>\<project>/html-log/scripts/</code>
+> <code>\<project>/html-log/scripts/</code>
 
 Data Saved for each .ts:
 -------------------
