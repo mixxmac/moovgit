@@ -1,7 +1,7 @@
 moovgit
 =======
 
-Open source Tritium website html/pdf backups! Currently using Mac OsX binary of wbktopdf to obtain pdf files of sites but open to more options.
+Open source Tritium website html/pdf backups! Currently using Mac OsX binary of wkhtmltopdf to obtain pdf files of sites but open to more options.
 
 To start using:
 
