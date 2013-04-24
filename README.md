@@ -7,7 +7,7 @@ To start using:
 
 * In the beginning of your Tritium files for the site you wish to backup (.ts) add a first line of:
 
-> <code>#URL=\<site-url\></code>
+> <code>#URI=\<site-url\></code>
 
 * To call backup:
 
