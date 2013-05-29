@@ -1,3 +1,4 @@
+#URI=www.gnc.com/product/index.jsp?productId=12349589
 $("./body") {
   add_class("mw_product")
   

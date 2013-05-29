@@ -1,0 +1,16 @@
+--2013-05-29 10:25:36--  http://www.gnc.com/product/index.jsp?productId=12349589
+Resolving www.gnc.com... 206.16.220.97
+Connecting to www.gnc.com|206.16.220.97|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 286753 (280K) [text/html]
+Saving to: ‘./html-log/scripts/pages/product.ts.html’
+
+     0K .......... .......... .......... .......... .......... 17%  175K 1s
+    50K .......... .......... .......... .......... .......... 35%  371K 1s
+   100K .......... .......... .......... .......... .......... 53%  302K 1s
+   150K .......... .......... .......... .......... .......... 71%  568K 0s
+   200K .......... .......... .......... .......... .......... 89%  311K 0s
+   250K .......... .......... ..........                      100%  368K=0.9s
+
+2013-05-29 10:25:37 (306 KB/s) - ‘./html-log/scripts/pages/product.ts.html’ saved [286753/286753]
+
