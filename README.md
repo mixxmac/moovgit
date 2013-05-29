@@ -25,3 +25,5 @@ Data Saved for each .ts:
 pdf (current "mstage" to act as mockup)
 
 html (current "www" source to diff)
+
+js (current "www" js files found in script tags)
