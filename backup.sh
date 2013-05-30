@@ -8,7 +8,7 @@ NEWBAR="\033[35m*****************************************************\033[m"
 getURI() {
   PATH1="./$DIRTO/${2:2}"
   URI="${1:5}"
-  [ "${1:0:5}" == '#URI=' ] && echo -e "\n$NEWBAR"  && echo "Backing up $2" && wget -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36" "$URI" -o dumpfile -O "$PATH1.html" && ./srcbackup/wkhtmltopdf --disable-javascript -q -l ${URI/www/mstage} "$PATH1.pdf" && saveJS "$PATH1.html" $(grep "Resolving" dumpfile -B 1 | tail -2 | head -1 | grep -o "http.*")
+  [ "${1:0:5}" == '#URI=' ] && echo -e "\n$NEWBAR"  && echo "Backing up $2" && wget -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36" "$URI" -o dumpfile -O "$PATH1.html" && ./wkhtmltopdf --disable-javascript -q -l ${URI/www/mstage} "$PATH1.pdf" && saveJS "$PATH1.html" $(grep "Resolving" dumpfile -B 1 | tail -2 | head -1 | grep -o "http.*")
 }
 
 saveJS() {
