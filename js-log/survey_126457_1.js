@@ -215,7 +215,7 @@ window.$jbrSurveyInvitation = jQuery.noConflict(true);
 
 (function ($) {
     var bizrate, Base64;
-    var cdnPath = (("https:" == document.location.protocol) ? 'https://images.bizrate.com/s2static/us/eval/ec56b916' : 'http://images.bizrate.com/s2static/us/eval/ec56b916');
+    var cdnPath = (("https:" == document.location.protocol) ? 'https://images.bizrate.com/s2static/us/eval/7284a1a0' : 'http://images.bizrate.com/s2static/us/eval/7284a1a0');
 	var logoPath= (("https:" == document.location.protocol) ? 'https://images.bizrate.com/merchant/' : 'http://images.bizrate.com/merchant/');
 
     bizrate = {
@@ -242,8 +242,8 @@ window.$jbrSurveyInvitation = jQuery.noConflict(true);
         	mid: 126457,
         	type: 1,
             altImageText: 'Tell Us What You Think!',
-            surveyUrl: 'http://evalus.bizrate.com/wix/p2375715.aspx?br=13698483452881119976102010301003810&rid=1369848345010107247&mid=126457&l=1033&flow=104&id=126457&pr=0&brand=BR&rf_code=sur&mkt_id=0&cs_id=0&browserAndVersion=Wget 1.14&browserType=Offline Browser&osAndVersion=Mac OS',
-            touchpointURL:'https://eval.bizrate.com/inviteLog?id=126457&product_id=7&flow=104&respondentId=1369848345010107247',
+            surveyUrl: 'http://evalus.bizrate.com/wix/p2375715.aspx?br=13699425573113964409702020302023765&rid=1369942557020102970&mid=126457&l=1033&flow=104&id=126457&pr=0&brand=BR&rf_code=sur&mkt_id=0&cs_id=0&browserAndVersion=Wget 1.14&browserType=Offline Browser&osAndVersion=Mac OS',
+            touchpointURL:'https://eval.bizrate.com/inviteLog?id=126457&product_id=7&flow=104&respondentId=1369942557020102970',
             inviteImageUrl: 'https://images.bizrate.com/eval/survey/invite_template/non-buyer/template_multi.gif',
             merchantLogoUrl: ((logoPath === '') ? '' : (logoPath + 126457 +'.gif')),
             buttonImageUrl:'',
